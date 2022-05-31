@@ -47,9 +47,9 @@ jobs:
       - name: Rename app
         run: |
           cd app/build/outputs/apk/release
-          mv app-release-unsigned.apk QuickNovel.apk
+          mv app-release-unsigned.apk CryptoApp.apk
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: QuickNovel
-          path: app/build/outputs/apk/release/QuickNovel.apk
+          name: CryptocurrencyApp
+          path: app/build/outputs/apk/release/CryptoApo.apk
